@@ -1,0 +1,74 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 60px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+select {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #333;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button {
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+}
+
+/* 選び直すボタン（画像に合わせたグレー） */
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    margin-top: 30px;
+}
+
+/* 結果画面のタイトル（緑色） */
+.result-title {
+    color: #28a745; 
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.hidden {
+    display: none;
+}
